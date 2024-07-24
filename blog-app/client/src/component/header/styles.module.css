@@ -1,0 +1,25 @@
+
+.header{
+    display: flex;
+    padding: 7px 20px;
+    align-items: center;
+}
+.header ul{
+    flex: 1;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: end;
+}
+.header ul a{
+    text-decoration: none;
+}
+.header ul li{
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #242424;
+}
+.header ul li:hover{
+    color: #000;
+}
